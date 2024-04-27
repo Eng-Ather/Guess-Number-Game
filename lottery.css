@@ -1,0 +1,117 @@
+body {
+
+    height: 95.5vh;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    /* background-image:url(https://i2-prod.mirror.co.uk/incoming/article7142806.ece/ALTERNATES/s1200/lottery.jpg); */
+
+}
+
+/* display box*/
+.center_box {
+    width: 298px;
+    height: 330px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 2px double green;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+button {
+    background-image: linear-gradient(to right, pink, brown);
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    color: rgb(51, 12, 226);
+    font-size: 20px;
+}
+
+input {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    border-color: green;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    color: green;
+}
+
+#score_bord {
+    width: 298px;
+    min-height: 50px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px double green;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+
+}
+
+/*result box*/
+.box {
+    border: 2px solid brown;
+    border-radius: 30px;
+    color: rgb(51, 12, 226);
+    width: 100px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+#winner {
+    display: none;
+}
+
+
+@media( min-width:300px) and ( max-width:600px )
+{
+
+/* display box*/
+.center_box {
+    width: 298px;
+    height: 330px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 2px double green;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+#score_bord {
+    width: 298px;
+    min-height: 50px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px double green;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+
+}
+
+/*result box*/
+.box {
+    border: 2px solid brown;
+    border-radius: 30px;
+    color: rgb(51, 12, 226);
+    width: 100px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+
+
+    body{ background-color: blanchedalmond;}
+}

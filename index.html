@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottre Game</title>
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="lottery.css">
+
+</head>
+
+<body>
+ <h2 style="text-align: center; color: green;"> Guess Number Game</h2>
+
+        <div class="center_box">
+
+            <input type="text" maxlength="1" id="input_field" placeholder=" 0 to 9"><br>
+            <br>
+            <label id="lable"><strong>Enter Number 0 t0 9</strong></label>
+            <br>
+            <h3 id="result"> ?? </h3>
+            <h1 id="winner"> You Win</h1>
+            <br>
+            <button type="button" onclick="generateNumber()"> Try yor Luck</button>
+
+        </div>
+
+        <div id="score_bord">
+
+            <div style="width: 250px;">
+                <div class="box">  best of luck </div>
+                <div class="box">  best of luck </div>
+                <div class="box">  best of luck </div>
+                <div class="box">  best of luck </div>
+                <div class="box">  best of luck </div>
+            </div>
+
+            <div style="width: 250px;">
+                <div class="box">  best of luck </div>
+                <div class="box">  best of luck </div>
+                <div class="box">  best of luck </div>
+                <div class="box">  best of luck </div>
+                <div class="box">  best of luck </div>
+            </div>
+
+        </div>
+
+  
+
+
+
+
+    <script src="lottery.js"></script>
+</body>
+
+</html>
